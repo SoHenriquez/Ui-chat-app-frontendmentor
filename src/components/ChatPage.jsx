@@ -19,9 +19,9 @@ const ChatPage = () => {
               <div class="flex w-full mt-2 space-x-3 max-w-[70%] ml-auto justify-end">
                 <div>
                   <div class="flex gap-3 p-2 rounded-l-lg rounded-br-lg">
-                    <img src="src/assets/images/dog-image-1.jpg" className="h-14 rounded-xl"  alt="dog-1"  />
-                    <img src="src/assets/images/dog-image-2.jpg" className="h-14 rounded-xl"  alt="dog-2"  />
-                    <img src="src/assets/images/dog-image-3.jpg" className="h-14 rounded-xl"  alt="dog-3"  />
+                    <img src="src/assets/images/dog-image-1.jpg" className="bg-[url('src/assets/images/dog-image-1.jpg')] bg-cover h-14 rounded-xl"  alt="dog-1"  />
+                    <img src="src/assets/images/dog-image-2.jpg" className="bg-[url('src/assets/images/dog-image-2.jpg')] bg-cover h-14 rounded-xl"  alt="dog-2"  />
+                    <img src="src/assets/images/dog-image-3.jpg" className="bg-[url('src/assets/images/dog-image-3.jpg')] bg-cover h-14 rounded-xl"  alt="dog-3"  />
                   </div>
                 </div>
               </div>
